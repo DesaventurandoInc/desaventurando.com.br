@@ -15,7 +15,7 @@ cover: assets/images/header.png
 logo: assets/images/logo-dadinho.jpg
 logo_dark: assets/images/logo-dadinho.jpg
 favicon: assets/images/logo-dadinho.jpg
-production_url: https://desaventurando.com.br/
+production_url: dev.desaventurando.com.br
 source_url: https://github.com/zenatuz/desaventurando.com.br/
 CNAME: #add cname for website to be created
 
