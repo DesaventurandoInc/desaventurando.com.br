@@ -15,9 +15,9 @@ cover: assets/images/header.png
 logo: assets/images/logo-dadinho.jpg
 logo_dark: assets/images/logo-dadinho.jpg
 favicon: assets/images/logo-dadinho.jpg
-production_url: dev.desaventurando.com.br
-source_url: https://github.com/zenatuz/desaventurando.com.br/
-CNAME: #add cname for website to be created
+production_url: https://reverent-saha-c216dc.netlify.com
+source_url: https://github.com/DesaventurandoInc/desaventurando.com.br/
+CNAME: dev.desaventurando.com.br #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
