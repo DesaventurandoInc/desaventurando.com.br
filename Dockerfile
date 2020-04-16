@@ -7,9 +7,9 @@ RUN apk upgrade --no-cache --update && apk add --no-cache --update make build-ba
 # Copy Theme files to Workdir
 COPY . /app
 
-# Instal Gems (bundler and jekyll) and Minimal Mistakes
-RUN gem install jekyll bundler \
-    && bundle install --jobs 4 --retry 3 --quiet
+# Instal Gems 
+RUN gem install bundler \
+    && bundle install --jobs 4 --retry 3 
 
 CMD ["bundle", "exec", "jekyll", "serve", "--watch" ,"--host=0.0.0.0"]
 

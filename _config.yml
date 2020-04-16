@@ -1,3 +1,8 @@
+# Default Jekyll confs
+destination: _site
+timezone: America/Sao_Paulo
+encoding: utf-8
+
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
@@ -15,24 +20,24 @@ cover: assets/images/header.png
 logo: assets/images/logo-dadinho.jpg
 logo_dark: assets/images/logo-dadinho.jpg
 favicon: assets/images/logo-dadinho.jpg
-production_url: https://reverent-saha-c216dc.netlify.com
+production_url: dev-desaventurando.com.br
 source_url: https://github.com/DesaventurandoInc/desaventurando.com.br/
-CNAME: dev.desaventurando.com.br #add cname for website to be created
+CNAME:  #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: desaventurando # replace by your username
+facebook: desaventurando # replace by your username
 
 # Disqus
 disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus_shortname:  # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics:  # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -57,31 +62,10 @@ feed:
 # Disqus comments as a per-post basis
 # ...
 
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: False
-lsi: False
-username: desaventurandoInc
-repo: desaventurando.com.br
-branch: dev
-relative_source: ../
-destination: ../_site
-production_url:  https://reverent-saha-c216dc.netlify.com
-source_url:  https://github.com/desaventurandoinc/desaventurando.com.br/
-
 exclude:
   - assets/css
   - node_modules
   - vendor
-  - .travis.yml
   - Gemfile
   - Gemfile.lock
   - GHOST.txt
